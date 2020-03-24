@@ -945,7 +945,8 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    Collab: 1
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -958,10 +959,10 @@ PlayerSettings:
     m_VersionCode: 90
     m_VersionName: 9.0
   apiCompatibilityLevel: 3
-  cloudProjectId: 
+  cloudProjectId: b25f5f04-5ae6-46b9-9d8c-e16ef894979b
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: Project-Synesthesia-2019
+  organizationId: unity_1014674
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
