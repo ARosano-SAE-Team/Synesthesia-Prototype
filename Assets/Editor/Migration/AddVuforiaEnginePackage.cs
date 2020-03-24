@@ -8,10 +8,12 @@ using UnityEngine;
 [InitializeOnLoad]
 public class AddVuforiaEnginePackage
 {
-    const string VUFORIA_VERSION = "8.6.10";
+    const string VUFORIA_VERSION = "9.0.12";
     const string PACKAGE_KEY = "\"com.ptc.vuforia.engine\"";
 
-    static readonly string sManifestJsonPath = Path.Combine(Application.dataPath, "..", "Packages", "manifest.json");
+    static readonly string sPackagesPath = Path.Combine(Application.dataPath, "..", "Packages");
+    static readonly string sManifestJsonPath = Path.Combine(sPackagesPath, "manifest.json");
+    static readonly string sLocalVuforiaPackagePath = Path.Combine(sPackagesPath, "com.ptc.vuforia.engine");
 
 
     static readonly ScopedRegistry sVuforiaRegistry = new ScopedRegistry()
@@ -29,7 +31,7 @@ public class AddVuforiaEnginePackage
 
         var manifest = Manifest.JsonDeserialize(sManifestJsonPath);
         var registries = manifest.ScopedRegistries.ToList();
-        if (registries.Any(r => r == sVuforiaRegistry))
+        if (IsLocalVuforiaEnginePackageInstalled() || registries.Any(r => r == sVuforiaRegistry))
             return;
 
         if (EditorUtility.DisplayDialog("Add Vuforia Engine Package",
@@ -38,6 +40,11 @@ public class AddVuforiaEnginePackage
         {
             UpdateManifest(manifest);
         }
+    }
+
+    static bool IsLocalVuforiaEnginePackageInstalled()
+    {
+        return Directory.Exists(sLocalVuforiaPackagePath);
     }
 
     static void UpdateManifest(Manifest manifest)
