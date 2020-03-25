@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using _Scripts;
+using _ScriptsDynamic;
 using UnityEngine;
 
 public class ParamCube : MonoBehaviour
@@ -20,11 +20,11 @@ public class ParamCube : MonoBehaviour
     {
         if (_useBuffer)
         {
-            transform.localScale = new Vector3 (transform.localScale.x, (Audioscript._bandBuffer [_band] * _scaleMultiplier) + _startScale, transform.localScale.z);
+            transform.localScale = new Vector3 (transform.localScale.x, (AudioVisualiserDynamic._bandBuffer [_band] * _scaleMultiplier) + _startScale, transform.localScale.z);
         }
         if (!_useBuffer)
         {
-            transform.localScale = new Vector3 (transform.localScale.x, (Audioscript._freqBand [_band] * _scaleMultiplier) + _startScale, transform.localScale.z);
+            transform.localScale = new Vector3 (transform.localScale.x, (AudioVisualiserDynamic._freqBand [_band] * _scaleMultiplier) + _startScale, transform.localScale.z);
         }
     }
 }
