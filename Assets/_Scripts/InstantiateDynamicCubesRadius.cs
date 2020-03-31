@@ -1,14 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using _ScriptsDynamic;
 using UnityEngine;
 
-public class InstantiateDynamicCubes : MonoBehaviour
+public class InstantiateDynamicCubesRadius : MonoBehaviour
 {
-    public GameObject _sampleCubePrefab;
-    GameObject[] _sampleCube = new GameObject[512];
+    [SerializeField] private GameObject _sampleCubePrefab;
+    GameObject[] _sampleCube = new GameObject[8];
+    [SerializeField, ReadOnly] float instAngle = 0f;
     public float _maxScale;
-    private int sampleAmount = 0;
+    [SerializeField, ReadOnly] private int sampleAmount = 0;
     private AudioVisualiserDynamic AVD = null;
 
     private void Awake()
@@ -18,11 +18,18 @@ public class InstantiateDynamicCubes : MonoBehaviour
 
         //Init Arrays and variables
         sampleAmount = AVD.sampleCountVar;
+
+        //re-constructs the sample-cube array
         _sampleCube = new GameObject[sampleAmount];
     }
     // Start is called before the first frame update
     void Start()
     {
+        //Calculate Angle required for a complete circle
+        print("instAngle = " + instAngle + " And sample amount = " + sampleAmount + " Before calculation");
+        instAngle = 360f / (float)sampleAmount;
+        print("instAngle = " + instAngle + " And sample amount = " + sampleAmount + " After calculation");
+
         for (int i = 0; i < sampleAmount; i++)
         {
             //Instantiate the Cube
@@ -33,8 +40,11 @@ public class InstantiateDynamicCubes : MonoBehaviour
             _instanceSampleCube.transform.parent = this.transform;
             //Name the Cube so its neater in the hiearchy
             _instanceSampleCube.name = "sampleCube" + i;
-            this.transform.eulerAngles = new Vector3(0, -0.703125f * i, 0);
+            //Rotate this transform towards where the new cube will go
+            this.transform.eulerAngles = new Vector3(0, -instAngle * i, 0);
+            //Move the sample cube 100 units infront of this
             _instanceSampleCube.transform.position = Vector3.forward * 100;
+            //Tie sample cube into the array
             _sampleCube[i] = _instanceSampleCube;
         }
     }
@@ -46,7 +56,8 @@ public class InstantiateDynamicCubes : MonoBehaviour
         {
             if (_sampleCube != null)
             {
-                _sampleCube[i].transform.localScale = new Vector3 (10, (AudioVisualiserDynamic._samples [i] * _maxScale) + 2, 10);
+                //Apply the vertical scaling
+                _sampleCube[i].transform.localScale = new Vector3 (10, (AVD._samples [i] * _maxScale) + 2, 10);
             }
         }
     }

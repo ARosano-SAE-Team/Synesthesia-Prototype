@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using _ScriptsDynamic;
+using _Scripts;
 using UnityEngine;
 
 public class ParamCube : MonoBehaviour
 {
-    public int _band;
+    [SerializeField] private int _band;
     public float _startScale, _scaleMultiplier;
     public bool _useBuffer;
     
@@ -20,11 +20,11 @@ public class ParamCube : MonoBehaviour
     {
         if (_useBuffer)
         {
-            transform.localScale = new Vector3 (transform.localScale.x, (AudioVisualiserDynamic._bandBuffer [_band] * _scaleMultiplier) + _startScale, transform.localScale.z);
+            transform.localScale = new Vector3 (transform.localScale.x, (Audioscript._bandBuffer [_band] * _scaleMultiplier) + _startScale, transform.localScale.z);
         }
         if (!_useBuffer)
         {
-            transform.localScale = new Vector3 (transform.localScale.x, (AudioVisualiserDynamic._freqBand [_band] * _scaleMultiplier) + _startScale, transform.localScale.z);
+            transform.localScale = new Vector3 (transform.localScale.x, (Audioscript._freqBand [_band] * _scaleMultiplier) + _startScale, transform.localScale.z);
         }
     }
 }
