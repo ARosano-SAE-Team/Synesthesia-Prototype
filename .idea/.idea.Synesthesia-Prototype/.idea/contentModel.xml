@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="_Scripts" t="Include">
+          <e p="Audioscript.cs" t="Include" />
+          <e p="AudioVisualiserDynamic.cs" t="Include" />
+          <e p="DevScripts" t="Include">
+            <e p="ReadOnlyAttribute.cs" t="Include" />
+          </e>
+          <e p="DynamicCubeArray.cs" t="Include" />
+          <e p="Instantiate512Cubes.cs" t="Include" />
+          <e p="InstantiateCubesArray.cs" t="Include" />
+          <e p="InstantiateDynamicCubesRadius.cs" t="Include" />
+          <e p="ParamCube.cs" t="Include" />
+        </e>
+        <e p="Editor" t="Include">
+          <e p="Migration" t="Include">
+            <e p="AddVuforiaEnginePackage.cs" t="Include" />
+            <e p="EditorMigrationScripts.asmdef" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="EditorMigrationScripts.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Synesthesia-Prototype.sln" t="IncludeFlat" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_Synesthesia-Prototype.16565256.00" t="ExcludeRecursive" />
+  </component>
+</project>
