@@ -26,8 +26,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="415db69b-a6d5-47c1-afaf-c588581159bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Plexustesting.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Plexustesting.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Synesthesia-Music-Visualizer-master.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/LineRenderer [template].prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/LineRenderer [template].prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/ParticlePlex.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/ParticlePlex.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Mirza Beig/Scripting/Effects/Particle Plexus/Materials/Plexus Triangles.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirza Beig/Scripting/Effects/Particle Plexus/Materials/Plexus Triangles.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Synesthesia-Music-Visualizer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCAR/somedata16" beforeDir="false" afterPath="$PROJECT_DIR$/QCAR/somedata16" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,15 +49,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ParticlePlex.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Audioscript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ParamCube.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/AudioVisualiserDynamic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FFAED69C-E594-4CE8-987C-D31C4B17B263/28/d2fa4c80/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Mirza Beig/Scripting/Effects/Particle Plexus/Scripts/ParticlePlexus.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/_Scripts/InstantiateDynamicCubes.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/PlexusTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Partical.cs" />
+        <option value="$PROJECT_DIR$/Assets/ParticlePlex.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/ParticlePlex.cs" />
       </list>
     </option>
   </component>
@@ -58,17 +76,22 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZTlwUsEeq7CIVq92gQpfPaOuy9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -104,6 +127,8 @@
       <workItem from="1585696342646" duration="512000" />
       <workItem from="1585697629457" duration="1083000" />
       <workItem from="1586231230156" duration="554000" />
+      <workItem from="1586236894223" duration="3593000" />
+      <workItem from="1587524361340" duration="814000" />
     </task>
     <servers />
   </component>
@@ -125,10 +150,17 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="521" y="260" key="Rider.ProjectTemplateDialog.Size" timestamp="1585696358381">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state x="521" y="260" key="Rider.ProjectTemplateDialog.Size/0.23.1680.962@0.23.1680.962" timestamp="1585696358381" />
+    <state x="349" y="143" key="SettingsEditor" timestamp="1586237088527">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state x="349" y="143" key="SettingsEditor/0.23.1680.962@0.23.1680.962" timestamp="1586237088527" />
   </component>
 </project>
