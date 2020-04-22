@@ -25,7 +25,10 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="415db69b-a6d5-47c1-afaf-c588581159bc" name="Default Changelist" comment="" />
+    <list default="true" id="415db69b-a6d5-47c1-afaf-c588581159bc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/ParticleFFT.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/ParticleFFT.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Audioscript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ParamCube.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/AudioVisualiserDynamic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp/Compiled-Legacy Shaders-Particles-Additive.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Synesthesia-Music-Visualizer-master/AudioVisualizer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FFAED69C-E594-4CE8-987C-D31C4B17B263/28/d2fa4c80/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
@@ -55,6 +59,7 @@
         <option value="$PROJECT_DIR$/Assets/ParticlePlex.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/ParticlePlex.cs" />
         <option value="$PROJECT_DIR$/Assets/Mirza Beig/Scripting/Effects/Particle Plexus/Scripts/ParticlePlexus.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/ParticleFFT.cs" />
       </list>
     </option>
   </component>
@@ -119,6 +124,8 @@
       <workItem from="1586231230156" duration="554000" />
       <workItem from="1586236894223" duration="3593000" />
       <workItem from="1587524361340" duration="3055000" />
+      <workItem from="1587546249721" duration="429000" />
+      <workItem from="1587547679551" duration="387000" />
     </task>
     <servers />
   </component>
