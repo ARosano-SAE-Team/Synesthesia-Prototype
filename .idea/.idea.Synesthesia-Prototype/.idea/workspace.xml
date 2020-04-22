@@ -26,19 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="415db69b-a6d5-47c1-afaf-c588581159bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Plexustesting.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Plexustesting.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Synesthesia-Music-Visualizer-master.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/LineRenderer [template].prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Prefabs/LineRenderer [template].prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/ParticlePlex.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/ParticlePlex.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Mirza Beig/Scripting/Effects/Particle Plexus/Materials/Plexus Triangles.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Mirza Beig/Scripting/Effects/Particle Plexus/Materials/Plexus Triangles.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Synesthesia-Music-Visualizer.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QCAR/somedata16" beforeDir="false" afterPath="$PROJECT_DIR$/QCAR/somedata16" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +54,7 @@
         <option value="$PROJECT_DIR$/Assets/Partical.cs" />
         <option value="$PROJECT_DIR$/Assets/ParticlePlex.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/ParticlePlex.cs" />
+        <option value="$PROJECT_DIR$/Assets/Mirza Beig/Scripting/Effects/Particle Plexus/Scripts/ParticlePlexus.cs" />
       </list>
     </option>
   </component>
@@ -128,7 +118,7 @@
       <workItem from="1585697629457" duration="1083000" />
       <workItem from="1586231230156" duration="554000" />
       <workItem from="1586236894223" duration="3593000" />
-      <workItem from="1587524361340" duration="814000" />
+      <workItem from="1587524361340" duration="1880000" />
     </task>
     <servers />
   </component>
