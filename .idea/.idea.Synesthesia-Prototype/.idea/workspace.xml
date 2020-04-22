@@ -25,10 +25,7 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="415db69b-a6d5-47c1-afaf-c588581159bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/ParticleFFT.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/ParticleFFT.cs" afterDir="false" />
-    </list>
+    <list default="true" id="415db69b-a6d5-47c1-afaf-c588581159bc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +122,7 @@
       <workItem from="1586236894223" duration="3593000" />
       <workItem from="1587524361340" duration="3055000" />
       <workItem from="1587546249721" duration="429000" />
-      <workItem from="1587547679551" duration="387000" />
+      <workItem from="1587547679551" duration="690000" />
     </task>
     <servers />
   </component>
