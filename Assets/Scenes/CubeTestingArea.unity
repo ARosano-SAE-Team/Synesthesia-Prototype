@@ -1002,7 +1002,7 @@ MonoBehaviour:
   cubeDistance: 0.5
   startScale: 2
   scalingMultiplier: 10
-  useBuffer: 1
+  useBuffer: 0
 --- !u!114 &476669023
 MonoBehaviour:
   m_ObjectHideFlags: 0
