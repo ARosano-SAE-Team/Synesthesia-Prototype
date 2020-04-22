@@ -9,6 +9,8 @@ public class DynamicCubeArray : MonoBehaviour
     [ReadOnly, SerializeField] private bool useBuffer;
     [SerializeField] private float startScale, scaleMultiplier;
 
+    [ReadOnly] public float bandOutput;
+
     //called by array instantiator
     public void SetVariables(int band, float _startScale, float _scaleMultiplier, bool UseBuffer, AudioVisualiserDynamic AudioVisualusier)
     {
@@ -29,11 +31,13 @@ public class DynamicCubeArray : MonoBehaviour
     {
         if (useBuffer)
         {
-            transform.localScale = new Vector3(transform.localScale.x, (AVD._bandBuffer[_band] * scaleMultiplier) + startScale, transform.localScale.z);
+            bandOutput = AVD._bandBuffer[_band];
+            transform.localScale = new Vector3(transform.localScale.x, (bandOutput * scaleMultiplier) + startScale, transform.localScale.z);
         }
         if (!useBuffer)
         {
-            transform.localScale = new Vector3(transform.localScale.x, (AVD._freqBand[_band] * scaleMultiplier) + startScale, transform.localScale.z);
+            bandOutput = AVD._freqBand[_band];
+            transform.localScale = new Vector3(transform.localScale.x, (bandOutput * scaleMultiplier) + startScale, transform.localScale.z);
         }
     }
 }

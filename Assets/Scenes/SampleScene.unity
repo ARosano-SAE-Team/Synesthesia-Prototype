@@ -146,6 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 0
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -243,6 +244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 4
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -340,6 +342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 3
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -441,6 +444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 0
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -469,6 +473,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 5
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -574,6 +579,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 0
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -671,6 +677,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 2
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -1153,6 +1160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 1
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -1458,6 +1466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 2
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -1559,6 +1568,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 3
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -1867,6 +1877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 7
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -2039,6 +2050,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 4
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -2140,6 +2152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 3
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -2196,6 +2209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 6
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -2297,6 +2311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 1
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -2398,6 +2413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 5
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -2499,6 +2515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 4
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -7559,6 +7576,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 7
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -7729,6 +7747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 7
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -7899,6 +7918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 5
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -8178,6 +8198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 6
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -8206,6 +8227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 1
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -8307,6 +8329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 2
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
@@ -8493,6 +8516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _band: 6
+  bandOutput: 0
   _startScale: 0.1
   _scaleMultiplier: 0.5
   _useBuffer: 1
