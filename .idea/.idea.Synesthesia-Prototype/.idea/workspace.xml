@@ -39,9 +39,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ParticlePlex.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/ParticleFFT.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Audioscript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ParamCube.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/AudioVisualiserDynamic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Synesthesia-Music-Visualizer-master/AudioVisualizer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FFAED69C-E594-4CE8-987C-D31C4B17B263/28/d2fa4c80/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Mirza Beig/Scripting/Effects/Particle Plexus/Scripts/ParticlePlexus.cs" root0="FORCE_HIGHLIGHTING" />
@@ -118,7 +120,7 @@
       <workItem from="1585697629457" duration="1083000" />
       <workItem from="1586231230156" duration="554000" />
       <workItem from="1586236894223" duration="3593000" />
-      <workItem from="1587524361340" duration="1880000" />
+      <workItem from="1587524361340" duration="2716000" />
     </task>
     <servers />
   </component>

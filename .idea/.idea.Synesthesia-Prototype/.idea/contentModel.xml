@@ -16,6 +16,7 @@
           <e p="InstantiateCubesArray.cs" t="Include" />
           <e p="InstantiateDynamicCubesRadius.cs" t="Include" />
           <e p="ParamCube.cs" t="Include" />
+          <e p="ParticleFFT.cs" t="Include" />
           <e p="ParticlePlex.cs" t="Include" />
         </e>
         <e p="Editor" t="Include">
