@@ -25,10 +25,7 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="415db69b-a6d5-47c1-afaf-c588581159bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-    </list>
+    <list default="true" id="415db69b-a6d5-47c1-afaf-c588581159bc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +36,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ParticlePlex.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ParticleFFT.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/ParticleFFT.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Audioscript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ParamCube.cs" root0="FORCE_HIGHLIGHTING" />
@@ -120,7 +118,7 @@
       <workItem from="1585697629457" duration="1083000" />
       <workItem from="1586231230156" duration="554000" />
       <workItem from="1586236894223" duration="3593000" />
-      <workItem from="1587524361340" duration="2716000" />
+      <workItem from="1587524361340" duration="3055000" />
     </task>
     <servers />
   </component>
