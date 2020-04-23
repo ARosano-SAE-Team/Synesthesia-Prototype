@@ -26,9 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="415db69b-a6d5-47c1-afaf-c588581159bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Synesthesia-Music-Visualizer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/FFTTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/FFTTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QCAR/somedata16" beforeDir="false" afterPath="$PROJECT_DIR$/QCAR/somedata16" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +140,7 @@
       <workItem from="1587644037789" duration="131000" />
       <workItem from="1587649970278" duration="7000" />
       <workItem from="1587652646518" duration="504000" />
-      <workItem from="1587671369146" duration="548000" />
+      <workItem from="1587671369146" duration="1371000" />
     </task>
     <servers />
   </component>
