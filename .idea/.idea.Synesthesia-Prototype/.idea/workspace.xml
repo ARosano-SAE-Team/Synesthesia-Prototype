@@ -26,15 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="415db69b-a6d5-47c1-afaf-c588581159bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/FFTTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Scripts/FFTTest.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ParticleFFTTest/Scripts/FFTTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ParticleFFTTest/Scripts/FFTTest.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleFFTTest.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleFFTTest/Scripts/FFTTest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleFFTTest/Scripts/FFTTest.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/DevScripts/ReadOnlyAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/DevScripts/ReadOnlyAttribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/FFTTest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/FFTTest.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +45,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/DevScripts/ReadOnlyAttribute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ParticlePlex.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/AudioVisualiserDynamic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A6A636A8-1F89-492F-8B40-1E98FB54872B/39/f06d6098/PropertyDrawer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FFAED69C-E594-4CE8-987C-D31C4B17B263/28/d2fa4c80/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/InstantiateCubesArray.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" root0="FORCE_HIGHLIGHTING" />
@@ -68,8 +66,8 @@
         <option value="$PROJECT_DIR$/Assets/_Scripts/ParticlePlex.cs" />
         <option value="$PROJECT_DIR$/Assets/Mirza Beig/Scripting/Effects/Particle Plexus/Scripts/ParticlePlexus.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/ParticleFFT.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/DevScripts/ReadOnlyAttribute.cs" />
         <option value="$PROJECT_DIR$/Assets/ParticleFFTTest/Scripts/FFTTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/DevScripts/ReadOnlyAttribute.cs" />
       </list>
     </option>
   </component>
@@ -138,6 +136,8 @@
       <workItem from="1587547679551" duration="2219000" />
       <workItem from="1587616271489" duration="1665000" />
       <workItem from="1587631296806" duration="1855000" />
+      <workItem from="1587637143822" duration="756000" />
+      <workItem from="1587638537365" duration="1109000" />
     </task>
     <servers />
   </component>

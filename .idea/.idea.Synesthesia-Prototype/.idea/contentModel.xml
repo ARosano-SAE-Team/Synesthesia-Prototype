@@ -12,7 +12,6 @@
             <e p="ReadOnlyAttribute.cs" t="Include" />
           </e>
           <e p="DynamicCubeArray.cs" t="Include" />
-          <e p="FFTTest.cs" t="Include" />
           <e p="Instantiate512Cubes.cs" t="Include" />
           <e p="InstantiateCubesArray.cs" t="Include" />
           <e p="InstantiateDynamicCubesRadius.cs" t="Include" />
@@ -88,6 +87,11 @@
                 </e>
               </e>
             </e>
+          </e>
+        </e>
+        <e p="ParticleFFTTest" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="FFTTest.cs" t="Include" />
           </e>
         </e>
       </e>
