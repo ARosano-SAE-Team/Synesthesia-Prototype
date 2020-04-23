@@ -1,12 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
-public class DynamicCubeArray : MonoBehaviour
+public class DynamicParticleArray : MonoBehaviour
 {
     [ReadOnly, SerializeField] private int _band;
     [ReadOnly, SerializeField] private AudioVisualiserDynamic AVD;
     [ReadOnly, SerializeField] private bool useBuffer;
+    [ReadOnly, SerializeField] private ParticleSystem PS;
+    [ReadOnly, SerializeField] private ParticleSystem.EmissionModule em;
+
     [SerializeField] private float startScale, scaleMultiplier;
 
     [ReadOnly] public float bandOutput;
@@ -26,6 +30,12 @@ public class DynamicCubeArray : MonoBehaviour
         //print("scaleMultiplier Set! - " + scaleMultiplier);
     }
 
+    void OnEnable()
+    {
+        PS = gameObject.GetComponent<ParticleSystem>();
+        em = PS.emission;
+    }
+
     //perform scaling, dependant on whether useBuffer was set or not.
     void Update()
     {
@@ -38,6 +48,7 @@ public class DynamicCubeArray : MonoBehaviour
             bandOutput = AVD._freqBand[_band];
         }
 
-        transform.localScale = new Vector3(transform.localScale.x, (bandOutput * scaleMultiplier) + startScale, transform.localScale.z);
+        em.rateOverTime = bandOutput * 5;
+
     }
 }
