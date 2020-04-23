@@ -26,8 +26,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="415db69b-a6d5-47c1-afaf-c588581159bc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Synesthesia-Prototype/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleFFTTest/Example.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleFFTTest/Example.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SynesthesiaPrototype.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SynesthesiaPrototype.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scripts/FFTTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/FFTTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +55,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ParticleFFT.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/ParticleFFT.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Audioscript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/FFTTest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/ParamCube.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/DynamicCubeArray.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -140,7 +147,10 @@
       <workItem from="1587644037789" duration="131000" />
       <workItem from="1587649970278" duration="7000" />
       <workItem from="1587652646518" duration="504000" />
-      <workItem from="1587671369146" duration="1371000" />
+      <workItem from="1587671369146" duration="1686000" />
+      <workItem from="1587680018079" duration="787000" />
+      <workItem from="1587682157322" duration="91000" />
+      <workItem from="1587682423439" duration="447000" />
     </task>
     <servers />
   </component>

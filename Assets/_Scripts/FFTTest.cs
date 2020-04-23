@@ -7,7 +7,7 @@ using UnityEditor;
 
 public class FFTTest : MonoBehaviour
 {
-    const int SAMPLE_COUNT = 1024;
+    const int SAMPLE_COUNT = 512;
 
     public FFTWindow window;
     public ParticleSystem pSys;
@@ -37,6 +37,8 @@ public class FFTTest : MonoBehaviour
 
         source = GetComponent<AudioSource>();
         hertzPerBin = (float)AudioSettings.outputSampleRate / 2f / SAMPLE_COUNT;
+
+        Debug.Log("OUTPUT SAMPLE RATE: " + AudioSettings.outputSampleRate);
     }
 
     int GetBinIndex(float freq)
@@ -65,6 +67,11 @@ public class FFTTest : MonoBehaviour
             float val = 0;
             for (int i = start; i < end; i++)
             {
+                if (i >= spectrum.Length)
+                {
+                    //This shouldn't happen...
+                    break;
+                }
                 val += spectrum[i];
                 if (spectrum[i] >= m.threshold)
                     m.active = true;

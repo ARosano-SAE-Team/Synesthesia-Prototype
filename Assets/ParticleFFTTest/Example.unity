@@ -339,7 +339,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.5
+      scalar: 1.25
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -777,7 +777,7 @@ ParticleSystem:
     gravityModifier:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 0.04
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -4057,7 +4057,7 @@ ParticleSystem:
         m_RotationOrder: 4
     maxLights: 20
   TrailModule:
-    enabled: 0
+    enabled: 1
     mode: 0
     ratio: 1
     lifetime:
@@ -4960,13 +4960,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457936664}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.2594215, y: -0, z: -0, w: 0.9657642}
+  m_LocalPosition: {x: 0, y: 3.54, z: -4.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 30.072, y: 0, z: 0}
 --- !u!1 &746180361
 GameObject:
   m_ObjectHideFlags: 0
@@ -5101,14 +5101,14 @@ MonoBehaviour:
     width: 60
     threshold: 0.0512
     color: {r: 1, g: 0, b: 0, a: 1}
-    active: 0
+    active: 1
     average: 0.000049279435
   - name: Bass
     frequency: 100
     width: 120
     threshold: 0.044
     color: {r: 0.027450982, g: 0.41176474, b: 0.31764707, a: 1}
-    active: 0
+    active: 1
     average: 0.00007117315
   - name: UpperBass
     frequency: 230
@@ -5129,28 +5129,28 @@ MonoBehaviour:
     width: 1700
     threshold: 0.0311
     color: {r: 1, g: 0.57822454, b: 0.0141509175, a: 1}
-    active: 0
+    active: 1
     average: 0.0000008108948
   - name: UpperMidBand
     frequency: 3750
     width: 2500
     threshold: 0.0205
     color: {r: 0.015686274, g: 1, b: 0.30228668, a: 1}
-    active: 0
+    active: 1
     average: 0.00000045830603
   - name: HighFreqBrightness
     frequency: 7500
     width: 5000
     threshold: 0.0118
     color: {r: 0, g: 1, b: 0.99999976, a: 1}
-    active: 0
+    active: 1
     average: 0.00000023960231
   - name: UltraHigh
     frequency: 15000
     width: 10000
     threshold: 0.0086
     color: {r: 0.62136126, g: 0, b: 1, a: 1}
-    active: 0
+    active: 1
     average: 0.00000015649697
 --- !u!4 &746180364
 Transform:
