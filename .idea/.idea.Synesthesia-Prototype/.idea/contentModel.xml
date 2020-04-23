@@ -89,6 +89,11 @@
             </e>
           </e>
         </e>
+        <e p="ParticleFFTTest" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="FFTTest.cs" t="Include" />
+          </e>
+        </e>
         <e p="Synesthesia-Music-Visualizer-master" t="Include">
           <e p="AudioVisualizer.cs" t="Include" />
           <e p="CubeEmitter.cs" t="Include" />
