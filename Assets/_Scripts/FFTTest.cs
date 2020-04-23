@@ -7,7 +7,7 @@ using UnityEditor;
 
 public class FFTTest : MonoBehaviour
 {
-    const int SAMPLE_COUNT = 1024;
+    const int SAMPLE_COUNT = 512;
 
     public FFTWindow window;
     public ParticleSystem pSys;
