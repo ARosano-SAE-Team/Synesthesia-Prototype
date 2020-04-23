@@ -12,6 +12,7 @@
             <e p="ReadOnlyAttribute.cs" t="Include" />
           </e>
           <e p="DynamicCubeArray.cs" t="Include" />
+          <e p="FFTTest.cs" t="Include" />
           <e p="Instantiate512Cubes.cs" t="Include" />
           <e p="InstantiateCubesArray.cs" t="Include" />
           <e p="InstantiateDynamicCubesRadius.cs" t="Include" />
@@ -87,33 +88,6 @@
                 </e>
               </e>
             </e>
-          </e>
-        </e>
-        <e p="ParticleFFTTest" t="Include">
-          <e p="Scripts" t="Include">
-            <e p="FFTTest.cs" t="Include" />
-          </e>
-        </e>
-        <e p="Synesthesia-Music-Visualizer-master" t="Include">
-          <e p="AudioVisualizer.cs" t="Include" />
-          <e p="CubeEmitter.cs" t="Include" />
-          <e p="Mover.cs" t="Include" />
-          <e p="Rotater.cs" t="Include" />
-          <e p="TimedDestroy.cs" t="Include" />
-          <e p="Visualization Receivers" t="Include">
-            <e p="AudioEvent.cs" t="Include" />
-            <e p="AudioEventListener.cs" t="Include" />
-            <e p="BasicObjectListener.cs" t="Include" />
-            <e p="LightsListener.cs" t="Include" />
-            <e p="MovingBasicObjectListener.cs" t="Include" />
-            <e p="ParticleSystemListener.cs" t="Include" />
-            <e p="ParticleSystemMoverListener.cs" t="Include" />
-            <e p="ParticleSystemObjectListener.cs" t="Include" />
-            <e p="SpeakerListener.cs" t="Include" />
-            <e p="TrailRendererFrequencyListener.cs" t="Include" />
-            <e p="TrailRendererListener.cs" t="Include" />
-            <e p="TrailRendererLowLowListener.cs" t="Include" />
-            <e p="WaveListener.cs" t="Include" />
           </e>
         </e>
       </e>
